@@ -44,10 +44,10 @@ public class Main {
                 case 1:
                     // Crea una nave espacial tripulada vacía
                     Spaceship mannedShip = new Manned("", "", 0f, 0f, 0f, 0, "");
-                    shipsInventory.add(mannedShip);
 
                     // Solicita al usuario que ingrese los datos de la nave espacial tripulada
                     mannedShip.dataRequest(scanner);
+                    shipsInventory.add(mannedShip);
 
                     // Muestra los datos ingresados por el usuario
                     mannedShip.dataDisplay();
@@ -57,10 +57,10 @@ public class Main {
                 case 2:
                     // Crea una nave espacial no tripulada vacía
                     Spaceship unmannedShip = new Unmanned("", "", 0f, 0f, 0f, "", "");
-                    shipsInventory.add(unmannedShip);
 
                     // Solicita al usuario que ingrese los datos de la nave espacial no tripulada
                     unmannedShip.dataRequest(scanner);
+                    shipsInventory.add(unmannedShip);
 
                     // Muestra los datos ingresados por el usuario
                     unmannedShip.dataDisplay();
@@ -70,10 +70,10 @@ public class Main {
                 case 3:
                     // Crea un vehículo lanzadera vacío
                     Spaceship shuttleShip = new Shuttle("", "", 0f, 0f, 0f, "", 0f);
-                    shipsInventory.add(shuttleShip);
 
                     // Solicita al usuario que ingrese los datos del vehículo lanzadera
                     shuttleShip.dataRequest(scanner);
+                    shipsInventory.add(shuttleShip);
 
                     // Muestra los datos ingresados por el usuario
                     shuttleShip.dataDisplay();
@@ -83,10 +83,10 @@ public class Main {
                 case 4:
                     // Crea una nave espacial de combate vacía
                     Spaceship fighterShip = new Fighter("", "", 0f, 0f, 0f, "", true);
-                    shipsInventory.add(fighterShip);
 
                     // Solicita al usuario que ingrese los datos de la nave espacial de combate
                     fighterShip.dataRequest(scanner);
+                    shipsInventory.add(fighterShip);
 
                     // Muestra los datos ingresados por el usuario
                     fighterShip.dataDisplay();
